@@ -1,0 +1,98 @@
+/* tipografia */
+h2{
+    font-size: 275%;
+    text-align: center;
+}
+h3{
+    font-size: 187.5%;
+    text-align: center;
+}
+::placeholder{
+    font-size: 22px;
+}
+
+nav{
+    justify-content: space-between;
+    grid-template-columns: 1fr 32px;
+}
+.navegacao{
+    display: none;
+}
+#fazer-pedido{
+    display: none;
+}
+
+#btn-pedido{
+    display: none;
+}
+
+.menu-hamburguer{
+    display: block;
+    
+}
+
+section#inicio{
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 2% 0;
+}
+
+div.txt-inicio{
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    gap: 60px;
+}
+
+div.txt-inicio p{
+    text-align: center;
+}
+.p-inicio{
+    width: 369px;
+}
+.emoji{
+    width: 40px;
+}
+div#btn-fp{
+    width: 265px;
+    height: 50px;
+}
+
+.img-inicio{
+    display: flex;
+    justify-content: center;
+    top: 80px;
+    width: 100%;
+}
+
+.img-inicio img{
+    width: 80%;
+    height: auto;
+    
+}
+
+/* P-HAMBURGER */
+form{
+    flex-direction: column;
+    gap: 16px;
+}
+
+input, select{
+    width: 340px;
+}
+
+
+/* SECTION CONTAINER PRODUTOS */
+div.produtos{
+    grid-template-columns: 1fr;
+}
+
+.item-p{
+    width: 320px;
+}
+
+div.promo{
+    top: 30px;
+    left: 30px;
+    padding: 12px 14px;
+}

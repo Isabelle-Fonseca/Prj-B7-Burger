@@ -1,0 +1,40 @@
+/* tipografia */
+h2{
+    font-size: 360%;
+}
+
+section{
+    padding: 16px 8%;
+}
+
+/* SECTION INICIO */
+section#inicio{
+    padding: 0 6% 16px;
+    justify-content: center;
+
+}
+.emoji{
+    width: 60px;
+}
+
+.img-inicio{
+    width: 50%;
+}
+
+.img-inicio img{
+    width: 480px;
+    height: 672px;
+}
+
+/* SECTION P-HAMBURGUER */
+form{
+    gap: 8%;
+}
+
+/* SECTION CONTAINER PRODUTOS */
+div.produtos{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+

@@ -1,0 +1,42 @@
+*{
+    font-size: 16px;
+}
+h2{
+    font-family: 'Calistoga', sans-serif;
+    color: #FFF;
+    font-size: 450%;/*(72 / 16) * 100% = 450% */
+    font-weight: 400;
+}
+
+
+h3{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+}
+
+h4{
+    font-family: 'Calistoga', sans-serif;
+    color: #FFF;
+    font-size: 200%;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 125%;
+}
+
+a{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 112.5%;
+}
+
+div.valor-produto{
+    color: #FE6A0F;
+    font-family: Inter;
+    font-size: 200%;
+    font-weight: 700;
+}
